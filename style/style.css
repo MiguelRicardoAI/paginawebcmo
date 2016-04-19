@@ -1,0 +1,145 @@
+body {
+	background: #eaeaea;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 14px;
+	color: #333333;
+	text-align:justify;
+}
+#logo{
+	margin-left: 15%;
+}
+  #banner{
+      border-top-left-radius:10px;
+      border-top-right-radius:10px; 
+      -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+      -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+      box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+      background-image:linear-gradient(#333333, #000000);
+      width: 980px;
+      height: 315px;
+      margin-left: 15%;
+  }
+  
+    #banner img{
+      display: none;
+      border-top-left-radius:10px;
+      border-top-right-radius:10px;
+    }
+    #banner img:nth-child(1){
+      display: block;
+      border-top-left-radius:10px;
+      border-top-right-radius:10px;
+    }
+#menu{
+	width: 980px;	
+    margin-left: 17%
+}
+div.horizontal
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+box-shadow: 0px 0px 10px 2px rgba(0,0,0,1);
+width:980px;
+height:25px;
+background-color: #ffffff;
+margin-left: 15%;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+}
+div.horizontal ul
+{
+list-style-type:none;
+margin:0px;
+}
+div.horizontal li
+{
+float:left;
+}
+div.horizontal a
+{
+display:block;
+width:100px;
+}
+div.horizontal a:link,div.horizontal a:visited
+{
+font-weight:bold;
+color:#800000;
+background-color:#ffffff;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+div.horizontal a:hover,div.horizontal a:active
+{
+	color:#aaabbb;
+}
+div.vertical
+{
+width:0px;
+height:0px;
+margin-left: 75%;
+margin-top: 10px;
+}
+div.vertical ul
+{
+list-style-type:none;
+margin:0px;
+}
+div.vertical li
+{
+float:center;
+}
+div.vertical a
+{
+display:block;
+width:150px;
+}
+div.vertical a:link,div.vertical a:visited
+{
+font-weight:bold;
+color:#800000;
+background-color:#ffffff;
+text-align:center;
+padding:18px;
+text-decoration:none;
+text-transform:uppercase;
+}
+div.vertical a:hover,div.vertical a:active
+{
+	color:#aaabbb;
+}
+#content{
+	width: 980px;
+	height: auto;
+	background-color: #ffffff;
+    margin-left: 15%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+#selection{
+	width: 680px;
+	height: auto;
+	margin-left: 20px;
+}
+
+#footer{
+  bottom:0;
+  min-height:20px;
+  position:fixed;
+  width:100%;
+  color: #800000;
+  font-size:12px;
+  text-align:center;
+}
+h1{
+	color: #800000;
+}
+h2{
+	color: black;
+}
+a{
+	color: #660000;
+	 text-decoration:none;
+}
